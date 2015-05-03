@@ -1,0 +1,31 @@
+---
+title: Index
+layout: default
+---
+
+<div class="jumbotron">
+    <h1>Dr S Mansingh &amp; Partner</h1>
+    <p>Queens Road Surgery – 282 Queens Road – Leicester – LE2 3FU – Tel: 0116 2707067</p>
+    <p>St Peters Health Centre, Sparkenhoe Street, Leicester – LE2 0TA – Tel: 0116 2957827</p>
+</div>
+
+
+
+<div class="row">
+
+    <div class="col-md-6">
+        <div class="page-header"><h1>Surgery Opening Hours</h1></div>
+        <p>Monday to Friday - <strong>8am to 2pm</strong> and <strong>3pm to 7pm</strong></p>
+        <p>Surgery Closed Weekends and Bank Holidays</p>
+    </div>
+
+    <div class="col-md-6">
+        <div class="page-header"><h1>Site Details</h1></div>
+        <ul class="list-unstyled">
+        {% for subpage in site.subpages %}
+            <li><a href="{{ subpage.url }}">{{ subpage.name }}</a></li>
+        {% endfor %}
+        </ul>
+    </div>
+</div>
+

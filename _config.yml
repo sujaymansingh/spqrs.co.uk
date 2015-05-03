@@ -1,0 +1,16 @@
+name: "QR and SPHC"
+description: "Queens Road Surgery & St Peters Health Centre"
+
+url: "/"
+
+systemone_url: "https://systmonline.tpp-uk.com/Login?Date=20150328141401"
+systemone_name: "SYSTEMONE Online"
+
+subpages:
+- {"url": "appointments.html", "name": "Appointments"}
+- {"url": "prescriptions.html", "name": "Prescriptions"}
+- {"url": "our_practice.html", "name": "Our Practice &amp; Registration"}
+- {"url": "complaints.html", "name": "Complaints"}
+- {"url": "clinics.html", "name": "Clinics"}
+- {"url": "emergency_care.html", "name": "Emergency Care"}
+- {"url": "other_nhs_services.html", "name": "Other Local NHS Services"}
